@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e3c72">
+    <meta name="description" content="Mi rutina personal de calistenia">
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIk1pIFJ1dGluYSBkZSBDYWxpc3RlbmlhIiwKICAic2hvcnRfbmFtZSI6ICJDYWxpc3RlbmlhIiwKICAic3RhcnRfdXJsIjogIi4iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiMxZTNjNzIiLAogICJ0aGVtZV9jb2xvciI6ICIjMWUzYzcyIiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSFpwWlhkQ2IzZzlJakFnTUNBeE1qZ2dNVEk0SWo0OGNtVmpkQ0IzYVdSMGFEMGlNVEk0SWlCb1pXbG5hSFE5SWpFeU9DSWdabWxzYkQwaUl6RTFOVFE0T0NJdlBqeDBaWGgwSUhnOUlqWTBJaUI1UFNJMk5DSWdabWxzYkQwaUkzZG9hWFJsSWlCbWIyNTBMWE5wZW1VOUlqUTRJaUIwWlhoMExXRnVZMmh2Y2owaWJXbGtaR3hsSWo0OGZqNUdQQzkwWlhoMFBqd3ZjM1puUGc9PSIsCiAgICAgICJzaXplcyI6ICIxMjh4MTI4IiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCNGJXeHVjejBpYUhSMGNEb3ZMM2QzZHk1M015NXZjbWN2TWpBd01DOXpkbWNpSUhacFpYZENiM2c5SWpBZ01DQXhPVElnTVRreUlqNDhjbVZqZENCM2FXUjBhRDBpTVRreUlpQm9aV2xuYUhROUlqRTVNaUlnWm1sc2JEMGlJekUxTlRRNE9DSXZQangwWlhoMElIZzlJak0ySWlCNVBTSTROQ0lnWm1sc2JEMGlJM2RvYVhSbElpQm1iMjUwTFhOcGVtVTlJamsySWlCMFpYaDBMV0Z1WTJodmNqMGliV2xrWkd4bElqNDhaakE4TDNSbGVIUStQQzl6ZG1jKyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCNGJXeHVjejBpYUhSMGNEb3ZMM2QzZHk1M015NXZjbWN2TWpBd01DOXpkbWNpSUhacFpYZENiM2c5SWpBZ01DQTFNVElnTlRFeUlqNDhjbVZqZENCM2FXUjBhRDBpTlRFeUlpQm9aV2xuYUhROUlqVXhNaUlnWm1sc2JEMGlJekUxTlRRNE9DSXZQangwWlhoMElIZzlJakUyTUNJZ2VUMGlNalF3SWlCbWFXeHNQU0lqZDJocGRHVWlJR1p2Ym5RdGMybDZaVDBpTWpBd0lpQjBaWGgwTFdGdVkyaHZjajBpYldsa1pHeGxJajQ4Wm4wOEwzUmxlSFErUEM5emRtYysiLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiCiAgICB9CiAgXQp9">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgZmlsbD0iIzE1NTQ4OCIvPjx0ZXh0IHg9IjY0IiB5PSI2NCIgZmlsbD0iI3doaXRlIiBmb250LXNpemU9IjQ4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj48L3RleHQ+PC9zdmc+">
+    <title>Mi Rutina de Calistenia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .day-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .day-btn {
+            background: white;
+            border: none;
+            padding: 20px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .day-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        
+        .day-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .day-btn .day-emoji {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .day-btn .day-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .day-btn .day-focus {
+            font-size: 0.85em;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+        
+        .day-btn.active .day-focus {
+            opacity: 0.9;
+        }
+        
+        .workout-content {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .workout-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .workout-header h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .workout-header .duration {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .progress-bar {
+            background: #e9ecef;
+            height: 30px;
+            border-radius: 15px;
+            margin-top: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .exercise-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+        
+        .exercise-card.completed {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        
+        .exercise-card:hover {
+            border-color: #667eea;
+        }
+        
+        .exercise-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+        }
+        
+        .exercise-card.completed .exercise-header {
+            background: #d4edda;
+        }
+        
+        .exercise-header:hover {
+            background: #f8f9fa;
+        }
+        
+        .exercise-card.completed .exercise-header:hover {
+            background: #c3e6cb;
+        }
+        
+        .exercise-left {
+            flex: 1;
+        }
+        
+        .exercise-title-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .complete-checkbox {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            accent-color: #28a745;
+        }
+        
+        .exercise-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+        
+        .exercise-card.completed .exercise-title {
+            text-decoration: line-through;
+            color: #28a745;
+        }
+        
+        .exercise-specs {
+            color: #667eea;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-left: 34px;
+            font-size: 0.95em;
+        }
+        
+        .exercise-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .timer-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9em;
+            transition: transform 0.2s;
+        }
+        
+        .timer-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .timer-btn:active {
+            transform: scale(0.95);
+        }
+        
+        .expand-icon {
+            font-size: 1.5em;
+            color: #667eea;
+            transition: transform 0.3s;
+        }
+        
+        .exercise-card.expanded .expand-icon {
+            transform: rotate(180deg);
+        }
+        
+        .exercise-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .exercise-card.expanded .exercise-details {
+            max-height: 2000px;
+        }
+        
+        .exercise-content {
+            padding: 20px;
+            background: white;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .exercise-card.completed .exercise-content {
+            background: #d4edda;
+        }
+        
+        .detail-section {
+            margin-bottom: 15px;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .detail-text {
+            color: #555;
+            line-height: 1.6;
+            margin-left: 10px;
+        }
+        
+        .detail-list {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .detail-list li {
+            margin-bottom: 5px;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        
+        .warning-label {
+            font-weight: bold;
+            color: #856404;
+        }
+        
+        .tip {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        
+        .tip-label {
+            font-weight: bold;
+            color: #0c5460;
+        }
+        
+        .warmup-list, .core-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .warmup-list li, .core-list li {
+            padding: 10px;
+            background: white;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .timer-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .timer-modal.active {
+            display: flex;
+        }
+        
+        .timer-content {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        .timer-display {
+            font-size: 5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .timer-display.warning {
+            color: #ffc107;
+        }
+        
+        .timer-display.danger {
+            color: #dc3545;
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .timer-label {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .timer-controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .timer-control-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .timer-control-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .timer-control-btn.stop {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+        }
+        
+        .reset-day-btn {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        
+        .reset-day-btn:hover {
+            background: #5a6268;
+        }
+
+        .install-prompt {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .install-prompt.show {
+            display: flex;
+        }
+
+        .install-btn {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .install-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .day-selector {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .workout-content {
+                padding: 20px;
+            }
+            
+            .timer-display {
+                font-size: 3.5em;
+            }
+            
+            .exercise-actions {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .timer-btn {
+                font-size: 0.8em;
+                padding: 6px 12px;
+            }
+
+            .install-prompt {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="install-prompt" id="installPrompt">
+            <span>📱 Instala esta app en tu pantalla de inicio para acceso rápido</span>
+            <button class="install-btn" id="installBtn">Instalar</button>
+        </div>
+
+        <header>
+            <h1>🏋️ Mi Rutina de Calistenia</h1>
+            <p>Haz clic en un día para ver los ejercicios y sus explicaciones</p>
+        </header>
+        
+        <div class="day-selector">
+            <button class="day-btn active" onclick="showDay('lunes')">
+                <span class="day-emoji">💪</span>
+                <div class="day-name">LUNES</div>
+                <div class="day-focus">Empuje Vertical</div>
+            </button>
+            <button class="day-btn" onclick="showDay('martes')">
+                <span class="day-emoji">🎯</span>
+                <div class="day-name">MARTES</div>
+                <div class="day-focus">Tirón Vertical</div>
+            </button>
+            <button class="day-btn" onclick="showDay('miercoles')">
+                <span class="day-emoji">🦵</span>
+                <div class="day-name">MIÉRCOLES</div>
+                <div class="day-focus">Pierna</div>
+            </button>
+            <button class="day-btn" onclick="showDay('jueves')">
+                <span class="day-emoji">🔥</span>
+                <div class="day-name">JUEVES</div>
+                <div class="day-focus">Empuje Horizontal</div>
+            </button>
+            <button class="day-btn" onclick="showDay('viernes')">
+                <span class="day-emoji">⚡</span>
+                <div class="day-name">VIERNES</div>
+                <div class="day-focus">Tirón + Full Body</div>
+            </button>
+        </div>
+        
+        <div class="workout-content" id="workoutContent"></div>
+    </div>
+    
+    <div class="timer-modal" id="timerModal">
+        <div class="timer-content">
+            <div class="timer-label" id="timerLabel">Tiempo de Descanso</div>
+            <div class="timer-display" id="timerDisplay">0:00</div>
+            <div class="timer-controls">
+                <button class="timer-control-btn" id="pauseBtn" onclick="pauseTimer()">Pausar</button>
+                <button class="timer-control-btn stop" onclick="stopTimer()">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let deferredPrompt;
+        let currentDay = 'lunes';
+        let completedExercises = {lunes: {}, martes: {}, miercoles: {}, jueves: {}, viernes: {}};
+        let timerInterval = null, timerSeconds = 0, timerPaused = false, timerTargetSeconds = 0;
+        
+        // PWA Install prompt
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('installPrompt').classList.add('show');
+        });
+
+        document.getElementById('installBtn').addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                deferredPrompt = null;
+                document.getElementById('installPrompt').classList.remove('show');
+            }
+        });
+
+        const workouts = {
+            lunes: {
+                title: "LUNES - Empuje Vertical + Core",
+                emoji: "💪",
+                duration: "60 minutos aprox.",
+                warmup: [
+                    "Rotaciones de hombros: 2 series x 10 repeticiones",
+                    "Flexiones de pino contra pared: 3 series x 5 repeticiones (solo sostener)",
+                    "Hollow body hold: 2 series x 15 segundos"
+                ],
+                exercises: [
+                    {
+                        name: "Flexiones de Pino Asistidas",
+                        sets: "4 series x máximas repeticiones",
+                        rest: "3 minutos",
+                        restSeconds: 180,
+                        position: "Colócate en posición de pino con los pies apoyados en una pared o superficie elevada. Tus manos deben estar al ancho de hombros con los dedos apuntando hacia adelante. Intenta mantener tu cuerpo lo más vertical posible.",
+                        execution: [
+                            "Baja controladamente doblando los codos, que van hacia los lados",
+                            "Desciende hasta que tu cabeza casi toque el suelo",
+                            "Empuja con fuerza hasta volver a brazos completamente extendidos",
+                            "Mantén el abdomen contraído durante todo el movimiento para proteger la espalda"
+                        ],
+                        errors: "No arquees la espalda excesivamente y asegúrate de bajar lo suficiente para trabajar el rango completo de movimiento.",
+                        tip: "Si te resulta muy difícil, comienza con pike push-ups manteniendo los pies en el suelo. A medida que ganes fuerza, puedes elevar los pies progresivamente."
+                    },
+                    {
+                        name: "Fondos en Barra o Anillas",
+                        sets: "4 series x 8-12 repeticiones",
+                        rest: "2.5 minutos",
+                        restSeconds: 150,
+                        position: "Agarra la barra o las anillas con los brazos completamente extendidos, sosteniendo todo tu cuerpo suspendido en el aire. Inclina ligeramente el torso hacia adelante para enfocar el trabajo en tríceps y pecho.",
+                        execution: [
+                            "Baja tu cuerpo doblando los codos hasta que tus hombros estén aproximadamente al nivel de tus codos (formando un ángulo de noventa grados)",
+                            "Mantén los codos relativamente pegados al cuerpo durante el descenso",
+                            "Empuja con fuerza hacia arriba hasta bloquear completamente los brazos",
+                            "Si usas anillas, mantén los anillos cerca de tu cuerpo para mayor estabilidad"
+                        ],
+                        errors: "Evita dejar que los hombros se vayan hacia adelante o bajar demasiado, ya que esto puede causar estrés innecesario en la articulación del hombro.",
+                        tip: "Si no puedes hacer el movimiento completo aún, coloca los pies en el suelo para asistirte y gradualmente reduce el apoyo."
+                    },
+                    {
+                        name: "Pike Push-ups",
+                        sets: "3 series x 10-15 repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Coloca las manos y los pies en el suelo formando una forma de V invertida con tu cuerpo. Eleva las caderas lo más alto posible manteniendo las piernas y brazos rectos.",
+                        execution: [
+                            "Baja tu cabeza hacia el suelo entre tus manos, como si quisieras hacer un beso al piso",
+                            "Los codos van hacia atrás y ligeramente hacia afuera",
+                            "Empuja con fuerza hasta volver a la posición inicial con brazos extendidos",
+                            "El movimiento debe ser principalmente vertical, trabajando los hombros"
+                        ],
+                        errors: "No dejes que las caderas bajen o que el movimiento se convierta en una flexión regular. Mantén la forma de V durante todo el ejercicio.",
+                        tip: "Entre más cerca estén tus pies de tus manos, más vertical será el movimiento y más difícil será el ejercicio. Ajusta la distancia según tu nivel."
+                    },
+                    {
+                        name: "Extensiones de Tríceps en Anillas",
+                        sets: "3 series x 12-15 repeticiones",
+                        rest: "90 segundos",
+                        restSeconds: 90,
+                        position: "Ajusta las anillas aproximadamente a la altura de tu pecho. Agarra las anillas con los brazos extendidos e inclina tu cuerpo hacia adelante. Cuanto más horizontal esté tu cuerpo, más difícil será el ejercicio.",
+                        execution: [
+                            "Dobla únicamente los codos manteniendo los hombros completamente fijos en su posición",
+                            "Las anillas se mueven hacia tu frente o cabeza mientras bajas",
+                            "Desciende hasta que tus antebrazos casi toquen tus bíceps",
+                            "Extiende los codos usando solo la fuerza de tus tríceps para volver a la posición inicial"
+                        ],
+                        errors: "No permitas que los hombros se muevan. El movimiento debe ocurrir únicamente en la articulación del codo.",
+                        tip: "Tu cuerpo debe mantenerse recto como una tabla durante todo el ejercicio. Si es muy difícil, mantén tu cuerpo más vertical."
+                    }
+                ],
+                core: [
+                    "Plancha RKC: 3 series x 30-45 segundos (máxima tensión en todo el cuerpo)",
+                    "L-sit en barra: 3 series x máximo tiempo posible"
+                ]
+            },
+            martes: {
+                title: "MARTES - Tirón Vertical + Bíceps",
+                emoji: "🎯",
+                duration: "60 minutos aprox.",
+                warmup: [
+                    "Cuelgues pasivos en barra: 2 series x 20 segundos",
+                    "Scapular pulls: 2 series x 10 repeticiones",
+                    "Dominadas negativas: 2 series x 3 repeticiones (bajar en 5 segundos)"
+                ],
+                exercises: [
+                    {
+                        name: "Dominadas (Variante de tu Elección)",
+                        sets: "5 series x 6-8 repeticiones",
+                        rest: "3 minutos",
+                        restSeconds: 180,
+                        position: "Cuelga de la barra con los brazos completamente extendidos. Puedes elegir el agarre que prefieras: pronación (palmas hacia adelante), supinación (palmas hacia ti) o neutro (palmas enfrentadas).",
+                        execution: [
+                            "Comienza activando tu espalda jalando los hombros hacia abajo y atrás (imagina que estás sacando pecho)",
+                            "Jala tu cuerpo hacia arriba de forma controlada hasta que tu barbilla pase por encima de la barra",
+                            "Mantén el abdomen contraído y evita balancearte o usar impulso de las piernas",
+                            "Baja de forma controlada hasta que los brazos estén completamente extendidos"
+                        ],
+                        errors: "No uses impulso de las piernas (kipping), no saques excesivamente el cuello hacia adelante, y asegúrate de bajar completamente en cada repetición.",
+                        tip: "Tu objetivo debe ser agregar una repetición cada semana. Si no puedes completar las repeticiones, usa bandas elásticas para asistencia o haz más negativas."
+                    },
+                    {
+                        name: "Dominadas Agarre Ancho",
+                        sets: "4 series x máximas repeticiones",
+                        rest: "2.5 minutos",
+                        restSeconds: 150,
+                        position: "Igual que las dominadas regulares, pero coloca las manos significativamente más separadas que el ancho de hombros. Este agarre enfatiza más el trabajo de la espalda dorsal.",
+                        execution: [
+                            "Con el agarre ancho, el rango de movimiento será ligeramente más corto",
+                            "Enfócate en jalar los codos hacia abajo y atrás",
+                            "Lleva el pecho hacia la barra en lugar de solo enfocarte en subir la barbilla",
+                            "Aprieta fuertemente los omóplatos juntos en la parte superior del movimiento"
+                        ],
+                        errors: "No acortes el rango de movimiento más de lo necesario. Aunque sea más difícil, intenta bajar completamente.",
+                        tip: "Este ejercicio es excelente para desarrollar la anchura de tu espalda. Si solo puedes hacer pocas repeticiones, está bien, es normal que sea más difícil que con agarre regular."
+                    },
+                    {
+                        name: "Dominadas Australianas en Anillas",
+                        sets: "4 series x 12-15 repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Coloca las anillas o barra a la altura de tu cintura. Acuéstate debajo y agarra las anillas. Tu cuerpo debe formar una línea recta desde los talones hasta la cabeza, con solo los talones tocando el suelo.",
+                        execution: [
+                            "Jala tu pecho hacia las anillas manteniendo el cuerpo completamente recto",
+                            "Los codos van hacia atrás pegados a los costados de tu cuerpo",
+                            "Aprieta los omóplatos juntos cuando tu pecho llegue a las anillas",
+                            "Baja de forma controlada hasta que los brazos estén extendidos"
+                        ],
+                        errors: "No dejes que las caderas caigan o que el cuerpo se doble. Mantén la posición de plancha durante todo el ejercicio.",
+                        tip: "Para ajustar la dificultad, cambia el ángulo de tu cuerpo. Más vertical es más fácil, más horizontal es más difícil."
+                    },
+                    {
+                        name: "Curl en Anillas o Barra Baja",
+                        sets: "3 series x 10-12 repeticiones",
+                        rest: "90 segundos",
+                        restSeconds: 90,
+                        position: "Ajusta las anillas aproximadamente a la altura del pecho. Inclínate hacia atrás sujetando las anillas con los brazos extendidos y las palmas hacia arriba (supinación).",
+                        execution: [
+                            "Dobla únicamente los codos, llevando las manos hacia tus hombros",
+                            "Solo los antebrazos deben moverse, los codos permanecen fijos en su posición",
+                            "Mantén el cuerpo recto durante todo el movimiento",
+                            "Controla el descenso hasta brazos completamente extendidos"
+                        ],
+                        errors: "No permitas que los codos se muevan hacia adelante o atrás. Deben permanecer en una posición fija.",
+                        tip: "Entre más horizontal esté tu cuerpo, más difícil será el ejercicio. Ajusta el ángulo según tu nivel de fuerza."
+                    }
+                ],
+                core: [
+                    "Cuelgue en barra: 2 series x máximo tiempo (fortalece agarre y antebrazos)"
+                ]
+            },
+            miercoles: {
+                title: "MIÉRCOLES - Pierna + Potencia",
+                emoji: "🦵",
+                duration: "60 minutos aprox.",
+                warmup: [
+                    "Sentadillas sin peso: 2 series x 15 repeticiones",
+                    "Zancadas caminando: 2 series x 10 por pierna",
+                    "Saltos en el lugar: 2 series x 10 repeticiones"
+                ],
+                exercises: [
+                    {
+                        name: "Sentadillas Pistol Asistidas",
+                        sets: "4 series x 6-8 repeticiones por pierna",
+                        rest: "2.5 minutos",
+                        restSeconds: 150,
+                        position: "Párate frente a una barra, poste o cualquier objeto vertical que puedas agarrar para mantener el equilibrio. Levanta una pierna hacia adelante.",
+                        execution: [
+                            "Baja lentamente con una sola pierna mientras mantienes la otra pierna extendida hacia adelante",
+                            "Desciende hasta que estés en una sentadilla profunda con una sola pierna",
+                            "La pierna elevada debe permanecer extendida frente a ti durante todo el movimiento",
+                            "Usa tus manos únicamente para mantener el equilibrio, no para jalar y ayudarte a subir",
+                            "Empuja con fuerza a través del pie de apoyo para volver a la posición inicial"
+                        ],
+                        errors: "No uses las manos para jalar y ayudarte a subir. Deben ser solo para equilibrio. No dejes que la rodilla se vaya hacia dentro.",
+                        tip: "Si aún no puedes hacer pistol squats, realiza sentadillas búlgaras en su lugar, que es una progresión más fácil con un pie trasero elevado."
+                    },
+                    {
+                        name: "Sentadillas con Pausa",
+                        sets: "4 series x 15-20 repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Párate con los pies aproximadamente al ancho de hombros, dedos de los pies ligeramente hacia afuera.",
+                        execution: [
+                            "Baja como en una sentadilla normal hasta que tus muslos estén paralelos al suelo o más abajo",
+                            "Mantén la posición inferior durante tres segundos completos sin relajarte",
+                            "Mantén el pecho arriba y la espalda recta durante la pausa",
+                            "Después de los tres segundos, empuja explosivamente hacia arriba hasta estar completamente de pie",
+                            "Las rodillas deben seguir la dirección de los dedos de los pies"
+                        ],
+                        errors: "No rebotes en la parte inferior. La pausa debe ser completamente estática. No dejes que las rodillas se colapsen hacia dentro.",
+                        tip: "Este ejercicio elimina el reflejo de estiramiento y te hace más fuerte desde posiciones muertas. Es excelente para construir fuerza real."
+                    },
+                    {
+                        name: "Zancadas con Salto",
+                        sets: "3 series x 10 por pierna",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Comienza en posición de zancada con una pierna adelante y otra atrás, ambas rodillas dobladas aproximadamente a noventa grados.",
+                        execution: [
+                            "Desde la posición de zancada, empuja explosivamente hacia arriba con ambas piernas",
+                            "Mientras estás en el aire, cambia rápidamente la posición de las piernas",
+                            "Aterriza suavemente en posición de zancada con las piernas opuestas",
+                            "Inmediatamente baja a una zancada profunda y prepárate para el siguiente salto",
+                            "Mantén el torso vertical durante todo el ejercicio"
+                        ],
+                        errors: "Aterriza suavemente para proteger las rodillas. No aterrices con las piernas rígidas.",
+                        tip: "Este es un ejercicio de potencia. Concéntrate en la explosividad del salto, pero siempre con control en el aterrizaje."
+                    },
+                    {
+                        name: "Peso Muerto a Una Pierna",
+                        sets: "3 series x 10 por pierna",
+                        rest: "90 segundos",
+                        restSeconds: 90,
+                        position: "Párate sobre una pierna con la rodilla ligeramente flexionada. La otra pierna estará libre.",
+                        execution: [
+                            "Inclínate hacia adelante desde la cadera manteniendo la espalda recta",
+                            "Mientras te inclinas, la pierna libre se extiende hacia atrás formando una línea con tu torso",
+                            "Los brazos cuelgan hacia el suelo y puedes tocar el piso con las manos si llegas",
+                            "Tu cuerpo debe formar una T cuando estés completamente inclinado",
+                            "Aprieta el glúteo y el isquiotibial de la pierna de apoyo para volver a la posición vertical"
+                        ],
+                        errors: "No redondees la espalda. Mantén la columna neutral durante todo el movimiento. No tuerzas las caderas.",
+                        tip: "Este ejercicio trabaja equilibrio, isquiotibiales y glúteos al mismo tiempo. Es normal tambalearse al principio."
+                    },
+                    {
+                        name: "Elevaciones de Gemelos",
+                        sets: "3 series x 20-25 repeticiones",
+                        rest: "1 minuto",
+                        restSeconds: 60,
+                        position: "Párate con los antepies en una superficie elevada como un escalón, dejando que los talones cuelguen en el aire.",
+                        execution: [
+                            "Elévate sobre la punta de los pies lo más alto que puedas",
+                            "Mantén la posición superior por un segundo apretando los gemelos",
+                            "Baja controladamente hasta sentir un buen estiramiento en los gemelos",
+                            "Los talones deben bajar por debajo del nivel del escalón",
+                            "Puedes hacerlas con una pierna a la vez para mayor intensidad"
+                        ],
+                        errors: "No rebotes en la parte inferior. Haz el movimiento controlado y con rango completo.",
+                        tip: "Para gemelos fuertes necesitas alto volumen. No tengas miedo de hacer muchas repeticiones."
+                    }
+                ],
+                core: [
+                    "Dragon flags progresión (o rodillas al pecho): 3 series x 8-10 repeticiones",
+                    "Plancha lateral: 2 series x 30 segundos cada lado"
+                ]
+            },
+            jueves: {
+                title: "JUEVES - Empuje Horizontal + Accesorios",
+                emoji: "🔥",
+                duration: "60 minutos aprox.",
+                warmup: [
+                    "Flexiones regulares: 2 series x 10 repeticiones",
+                    "Aperturas de pecho simuladas: 2 series x 10 repeticiones",
+                    "Band pull-aparts (o simulación): 2 series x 15 repeticiones"
+                ],
+                exercises: [
+                    {
+                        name: "Flexiones con Pausa",
+                        sets: "5 series x 15-20 repeticiones",
+                        rest: "2.5 minutos",
+                        restSeconds: 150,
+                        position: "Posición estándar de flexión con las manos ligeramente más anchas que el ancho de hombros. Tu cuerpo debe formar una línea recta desde la cabeza hasta los talones.",
+                        execution: [
+                            "Baja tu cuerpo de forma controlada hasta que tu pecho casi toque el suelo",
+                            "Mantén la posición inferior durante dos segundos completos sin relajarte",
+                            "Tu abdomen debe permanecer contraído y tu cuerpo recto durante la pausa",
+                            "Después de la pausa, empuja explosivamente hacia arriba hasta bloquear los brazos",
+                            "Los codos deben ir hacia atrás formando aproximadamente un ángulo de cuarenta y cinco grados con tu cuerpo"
+                        ],
+                        errors: "No dejes que las caderas caigan o se eleven. Tu cuerpo debe mantenerse en línea recta perfecta durante todo el ejercicio.",
+                        tip: "Si es muy fácil, eleva los pies en una superficie o usa un tempo más lento como tres segundos bajando, cero arriba, un segundo subiendo."
+                    },
+                    {
+                        name: "Flexiones Arquero",
+                        sets: "4 series x 8-10 por lado",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Comienza en posición de flexión pero con las manos significativamente más separadas de lo normal.",
+                        execution: [
+                            "Baja tu cuerpo transfiriendo todo el peso hacia un solo brazo",
+                            "El brazo que trabaja se dobla normalmente mientras el otro permanece casi completamente extendido",
+                            "Tu torso se desplazará lateralmente hacia el brazo que está trabajando",
+                            "Empuja usando principalmente el brazo que está doblado para volver al centro",
+                            "Alterna los lados en cada repetición"
+                        ],
+                        errors: "No dejes que el brazo extendido se doble demasiado. Debe permanecer casi recto para que realmente trabajes un lado a la vez.",
+                        tip: "Este ejercicio es una progresión hacia las flexiones a un brazo. Concéntrate en que el brazo de trabajo haga la mayor parte del esfuerzo."
+                    },
+                    {
+                        name: "Flexiones en Anillas",
+                        sets: "3 series x 12-15 repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Coloca las anillas aproximadamente a diez o veinte centímetros del suelo. Adopta posición de flexión con las manos en las anillas.",
+                        execution: [
+                            "La inestabilidad de las anillas hace que este ejercicio sea más difícil que las flexiones normales",
+                            "Baja tu cuerpo como en una flexión regular manteniendo las anillas lo más estables posible",
+                            "Mantén los brazos cerca del cuerpo durante todo el movimiento",
+                            "Aprieta fuertemente las anillas hacia adentro durante todo el ejercicio para mayor estabilidad",
+                            "Empuja hacia arriba concentrándote en apretar el pecho"
+                        ],
+                        errors: "No inclines demasiado hacia adelante si no tienes la movilidad necesaria. Progresa gradualmente.",
+                        tip: "La inclinación hacia adelante transfiere más trabajo al pecho en comparación con fondos verticales que trabajan más tríceps."
+                    }
+                ],
+                core: [
+                    "Elevaciones laterales isométricas: 3 series x 20 segundos",
+                    "Pike push-ups: 2 series x 15 repeticiones"
+                ]
+            },
+            viernes: {
+                title: "VIERNES - Tirón Horizontal + Full Body",
+                emoji: "⚡",
+                duration: "60 minutos aprox.",
+                warmup: [
+                    "Remo australiano fácil: 2 series x 10 repeticiones",
+                    "Band pull-aparts: 2 series x 15 repeticiones",
+                    "Cuelgue activo: 2 series x 10 segundos"
+                ],
+                exercises: [
+                    {
+                        name: "Remo Australiano en Anillas",
+                        sets: "5 series x 10-15 repeticiones",
+                        rest: "2.5 minutos",
+                        restSeconds: 150,
+                        position: "Ajusta las anillas a la altura de tu cintura. Acuéstate debajo con el cuerpo completamente recto, solo los talones tocan el suelo.",
+                        execution: [
+                            "Jala tu cuerpo hacia arriba hasta que tu pecho toque las anillas",
+                            "Los codos deben ir hacia atrás y pegados a los costados de tu cuerpo",
+                            "Aprieta fuertemente los omóplatos juntos cuando llegues arriba",
+                            "Tu cuerpo debe mantenerse completamente recto como una tabla durante todo el movimiento",
+                            "Baja de forma controlada hasta que los brazos estén completamente extendidos"
+                        ],
+                        errors: "No dejes que las caderas caigan o que hagas el movimiento solo con los brazos. Todo el cuerpo debe moverse como una unidad.",
+                        tip: "Para ajustar la dificultad, cambia la altura de las anillas o el ángulo de tu cuerpo. Más horizontal es más difícil."
+                    },
+                    {
+                        name: "Front Lever Progressions",
+                        sets: "4 series x máximo tiempo",
+                        rest: "3 minutos",
+                        restSeconds: 180,
+                        position: "Cuelga de la barra con agarre prono, manos aproximadamente al ancho de hombros.",
+                        execution: [
+                            "Para tuck front lever: Lleva las rodillas hacia el pecho y luego inclina todo tu cuerpo hacia atrás hasta quedar horizontal bajo la barra",
+                            "Tu cuerpo debe formar una bola compacta paralela al suelo",
+                            "Mantén los brazos completamente rectos durante todo el tiempo",
+                            "Aprieta fuertemente el abdomen y la espalda para mantener la posición",
+                            "Para advanced tuck: Extiende las rodillas más lejos del pecho manteniendo la horizontal"
+                        ],
+                        errors: "No dobles los brazos y no dejes que las caderas caigan por debajo de la línea horizontal.",
+                        tip: "Esta es una habilidad avanzada de calistenia. Comienza con tuck y progresa lentamente. Incluso unos pocos segundos son un gran logro."
+                    },
+                    {
+                        name: "Dominadas Supinas",
+                        sets: "3 series x máximas repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Cuelga de la barra con las palmas hacia ti (supinación), manos aproximadamente al ancho de hombros.",
+                        execution: [
+                            "Este agarre pone más énfasis en los bíceps que el agarre prono",
+                            "Jala tu cuerpo hacia arriba llevando el pecho hacia la barra",
+                            "Piensa en jalar los codos hacia abajo y atrás",
+                            "Sube hasta que tu barbilla pase claramente por encima de la barra",
+                            "Baja controladamente hasta brazos completamente extendidos"
+                        ],
+                        errors: "No uses impulso de las piernas. Mantén el movimiento estricto y controlado.",
+                        tip: "Las dominadas supinas suelen ser más fáciles que las pronadas debido a la mayor participación del bíceps. Aprovecha esto para trabajar volumen."
+                    },
+                    {
+                        name: "Face Pulls en Anillas",
+                        sets: "3 series x 15-20 repeticiones",
+                        rest: "90 segundos",
+                        restSeconds: 90,
+                        position: "Ajusta las anillas aproximadamente a la altura del pecho. Inclínate hacia atrás sujetando las anillas con los brazos extendidos.",
+                        execution: [
+                            "Jala las anillas hacia tu cara separándolas mientras jalas",
+                            "Los codos suben y van hacia afuera formando una W con tus brazos",
+                            "Las anillas deben terminar a los lados de tu cabeza, no frente a tu cara",
+                            "Aprieta fuertemente los omóplatos juntos en la posición final",
+                            "Controla el regreso a brazos extendidos"
+                        ],
+                        errors: "No jales solo con los brazos. El movimiento debe venir de la retracción de los omóplatos.",
+                        tip: "Este ejercicio es excelente para la salud de los hombros y para balancear todo el trabajo de empuje. No lo saltes."
+                    }
+                ],
+                core: [
+                    {
+                        name: "CIRCUITO FINAL - Full Body",
+                        details: "Realiza 3 rondas completas con 90 segundos de descanso entre rondas:",
+                        exercises: [
+                            "Burpees: 10 repeticiones",
+                            "Mountain climbers: 20 repeticiones (10 por pierna)",
+                            "Hollow rocks: 15 repeticiones"
+                        ]
+                    }
+                ]
+            }
+        };
+
+        function showDay(day) {
+            currentDay = day;
+            document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.closest('.day-btn').classList.add('active');
+            renderWorkout(day);
+        }
+        
+        function renderWorkout(day) {
+            const workout = workouts[day];
+            const content = document.getElementById('workoutContent');
+            const totalExercises = workout.exercises.length;
+            const completedCount = Object.keys(completedExercises[day]).filter(key => completedExercises[day][key]).length;
+            const progressPercent = (completedCount / totalExercises) * 100;
+            
+            let html = `
+                <div class="workout-header">
+                    <h2>${workout.emoji} ${workout.title}</h2>
+                    <div class="duration">⏱️ ${workout.duration}</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${progressPercent}%">
+                            ${completedCount} / ${totalExercises} ejercicios completados
+                        </div>
+                    </div>
+                    <button class="reset-day-btn" onclick="resetDay()">🔄 Reiniciar Día</button>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">🔥 Calentamiento</div>
+                    <ul class="warmup-list">
+                        ${workout.warmup.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">💪 Trabajo Principal</div>
+                    ${workout.exercises.map((ex, index) => {
+                        const isCompleted = completedExercises[day][index] || false;
+                        return `
+                        <div class="exercise-card ${isCompleted ? 'completed' : ''}" id="exercise-${index}">
+                            <div class="exercise-header" onclick="toggleExercise(${index})">
+                                <div class="exercise-left">
+                                    <div class="exercise-title-row">
+                                        <input type="checkbox" class="complete-checkbox" ${isCompleted ? 'checked' : ''} 
+                                               onclick="event.stopPropagation(); toggleComplete(${index})" id="checkbox-${index}">
+                                        <div class="exercise-title">${index + 1}. ${ex.name}</div>
+                                    </div>
+                                    <div class="exercise-specs">${ex.sets} | Descanso: ${ex.rest}</div>
+                                </div>
+                                <div class="exercise-actions">
+                                    <button class="timer-btn" onclick="event.stopPropagation(); startTimer(${ex.restSeconds}, '${ex.name}')">
+                                        ⏱️ ${ex.rest}
+                                    </button>
+                                    <div class="expand-icon">▼</div>
+                                </div>
+                            </div>
+                            <div class="exercise-details">
+                                <div class="exercise-content">
+                                    <div class="detail-section">
+                                        <div class="detail-label">📍 Posición Inicial:</div>
+                                        <div class="detail-text">${ex.position}</div>
+                                    </div>
+                                    <div class="detail-section">
+                                        <div class="detail-label">🔄 Ejecución:</div>
+                                        <ol class="detail-list">
+                                            ${ex.execution.map(step => `<li>${step}</li>`).join('')}
+                                        </ol>
+                                    </div>
+                                    <div class="warning">
+                                        <div class="warning-label">⚠️ Errores Comunes:</div>
+                                        ${ex.errors}
+                                    </div>
+                                    <div class="tip">
+                                        <div class="tip-label">💡 Consejo:</div>
+                                        ${ex.tip}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `}).join('')}
+                </div>
+            `;
+            
+            if (workout.core) {
+                if (Array.isArray(workout.core) && typeof workout.core[0] === 'string') {
+                    html += `
+                        <div class="section">
+                            <div class="section-title">🎯 ${day === 'viernes' ? 'Circuito Final' : 'Core'}</div>
+                            <ul class="core-list">
+                                ${workout.core.map(item => `<li>${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                } else {
+                    html += `
+                        <div class="section">
+                            <div class="section-title">🎯 ${workout.core[0].name}</div>
+                            <div style="background: white; padding: 20px; border-radius: 10px;">
+                                <p style="margin-bottom: 15px; color: #555; font-weight: bold;">${workout.core[0].details}</p>
+                                <ul class="core-list">
+                                    ${workout.core[0].exercises.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+            
+            content.innerHTML = html;
+        }
+
+        function toggleExercise(index) {
+            document.getElementById(`exercise-${index}`).classList.toggle('expanded');
+        }
+        
+        function toggleComplete(index) {
+            completedExercises[currentDay][index] = !completedExercises[currentDay][index];
+            renderWorkout(currentDay);
+        }
+        
+        function resetDay() {
+            if (confirm('¿Quieres reiniciar el progreso de este día?')) {
+                completedExercises[currentDay] = {};
+                renderWorkout(currentDay);
+            }
+        }
+        
+        function startTimer(seconds, exerciseName) {
+            timerTargetSeconds = seconds;
+            timerSeconds = seconds;
+            timerPaused = false;
+            document.getElementById('timerLabel').textContent = `Descanso - ${exerciseName}`;
+            document.getElementById('timerModal').classList.add('active');
+            document.getElementById('pauseBtn').textContent = 'Pausar';
+            updateTimerDisplay();
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                if (!timerPaused) {
+                    timerSeconds--;
+                    updateTimerDisplay();
+                    if (timerSeconds <= 0) {
+                        clearInterval(timerInterval);
+                        playSound();
+                        document.getElementById('timerDisplay').textContent = '¡LISTO!';
+                        setTimeout(() => stopTimer(), 2000);
+                    }
+                }
+            }, 1000);
+        }
+        
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timerSeconds / 60);
+            const seconds = timerSeconds % 60;
+            const display = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            const timerDisplay = document.getElementById('timerDisplay');
+            timerDisplay.textContent = display;
+            timerDisplay.classList.remove('warning', 'danger');
+            const percentRemaining = (timerSeconds / timerTargetSeconds) * 100;
+            if (percentRemaining <= 20) timerDisplay.classList.add('danger');
+            else if (percentRemaining <= 40) timerDisplay.classList.add('warning');
+        }
+        
+        function pauseTimer() {
+            timerPaused = !timerPaused;
+            document.getElementById('pauseBtn').textContent = timerPaused ? 'Reanudar' : 'Pausar';
+        }
+        
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            document.getElementById('timerModal').classList.remove('active');
+            timerSeconds = 0;
+        }
+        
+        function playSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = 800;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.5);
+        }
+        
+        document.getElementById('timerModal').addEventListener('click', function(e) {
+            if (e.target === this) stopTimer();
+        });
+
+        window.onload = function() {
+            renderWorkout('lunes');
+        };
+    </script>
+</body>
+</html> arriba con control hasta bloquear los brazos"
+                        ],
+                        errors: "No permitas que las anillas se abran o se muevan erráticamente. Mantenlas bajo control.",
+                        tip: "Las anillas reclutan muchos músculos estabilizadores. Es normal que al principio te tiemblen los brazos."
+                    },
+                    {
+                        name: "Fondos de Pecho",
+                        sets: "3 series x 10-12 repeticiones",
+                        rest: "2 minutos",
+                        restSeconds: 120,
+                        position: "Similar a los fondos regulares, pero con una inclinación más pronunciada del torso hacia adelante.",
+                        execution: [
+                            "Inclina tu torso hacia adelante formando aproximadamente un ángulo de treinta a cuarenta y cinco grados",
+                            "Los codos pueden abrirse un poco más que en fondos regulares, aproximadamente cuarenta y cinco grados",
+                            "Baja hasta sentir un buen estiramiento en el pecho",
+                            "No bajes más de lo que te permita tu movilidad de hombro sin dolor",
+                            "Empuja hacia
